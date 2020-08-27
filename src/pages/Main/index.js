@@ -70,10 +70,10 @@ export default function Main() {
 
     return (
         <Container>
-            <h1> <FaGithub /> Meus Repositorios {alert} 2</h1>
+            <h1> <FaGithub /> Meus Repositorios</h1>
             <Form onSubmit={handleSubmit}>
                 <input type="text"
-                    placeholder={alert}
+                    placeholder="Digite o repositorio!"
                     value={newRepo} onChange={handleinputChange}
                 />
                 <SubmitButton loading={loading ? 1 : 0}>
